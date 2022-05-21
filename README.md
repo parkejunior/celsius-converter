@@ -1,4 +1,4 @@
-# Celcius Converter
+# Celsius Converter
 Convert the temperature in celsius to kelvin or fahrenheit
 
 ## How?
