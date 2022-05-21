@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celsius Converter by parkejunior</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="container container-center content-body">
+      <header class="center">
+        <h1>
+          Celsius Converter <span class="credits">by <a href="https://github.com/parkejunior" target="_blank">parkejunior</a></span>
+        </h1>
+        <p>Convert the temperature in celsius to kelvin or fahrenheit</p>
+      </header>
+
+      <section>
+        <div class="indicators">
+          <div class="temp-indicator">
+            <span id="kelvinIndicator">-</span> °K
+          </div>
+          <div class="temp-indicator">
+            <span id="fahrenheitIndicator">-</span> °F
+          </div>
+        </div>
+
+        <div class="temp-indicator temp-input-group">
+          <input 
+            type="number" 
+            value="0"
+            class="temp-input temp-indicator"
+            id="celsiusInput"
+            name="celsiusInput"
+          > °C
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
